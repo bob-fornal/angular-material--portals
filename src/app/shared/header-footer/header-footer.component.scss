@@ -1,0 +1,26 @@
+.header-wrapper {
+  --mat-toolbar-container-background-color: #333;
+  --mat-toolbar-container-text-color: #fff;
+  --mat-toolbar-standard-height: 1.2em;
+
+  background-color: var(--mat-toolbar-container-background-color);
+  color: var(--mat-toolbar-container-text-color);
+
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 1em;
+}
+
+.content-wrapper {
+  margin-top: calc(3em + 120px);
+  padding: 2em;
+}
+
+.footer-wrapper {
+  background-color: #333;
+  width: 100%;
+  color: #fff;
+  padding: 1em;  
+}
