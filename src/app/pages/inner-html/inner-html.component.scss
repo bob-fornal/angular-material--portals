@@ -1,0 +1,7 @@
+.inner-html-wrapper {
+  padding: 1em;
+
+  ::ng-deep img {
+    max-width: 300px;
+  }
+}
